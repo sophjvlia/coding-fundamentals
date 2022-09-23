@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        html {
+            font-family: system-ui;
+            margin: 20px;
+        }
+
+        /*About Me*/
+        .my-name {
+            font-size: 35px;
+        }
+
+        /*Work Experience*/
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+
+        th {
+            background-color: #87CEEB;
+        }
+
+        td {
+            background-color: #F0F8FF;
+        }
+
+        /*Form*/
+        form {
+            border: 1px solid black;
+            width: fit-content;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        form > h3, div {
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+       <nav>
+        <h3>Navigation</h3>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#say-hi">Say Hi!</a></li>
+        </ul>
+       </nav>
+    </header>
+
+    <main>
+        <!--About Me-->
+        <section id="about-me">
+            <h3>About Me</h3>
+            <strong class="my-name">Sophie Crabtree</strong>
+            <p>
+                Hi! I am the proud owner of Knitsy Daisy, a crochet hat shop on Instagram. <br>
+                I plan and create all of my social media posts for Knitsy Daisy from single posts to carousels, <br>
+                all the way to trendy reels and engaging stories. It was a great first-hand experience to manage <br>
+                my own small business and my respect towards small business owners have definitely grown since then! 
+            </p>
+        </section>
+
+        <!--Work Experience-->
+        <section>
+            <table>
+                <caption><h3>Work Experience</h3></caption>
+                <thead>
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Period</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Crochet Business Owner</td>
+                        <td>7 months</td>
+                    </tr>
+
+                    <tr>
+                        <td>Florist</td>
+                        <td>1 year</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--Web Dev Languages-->
+        <section>
+            <h3>Languages</h3>
+            <p>These are the languages that I am familiar with:</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <form id="say-hi">
+            <h3>Say Hi!</h3>
+
+            <!--Name-->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <!--E-mail-->
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!--Message-->
+            <div>
+                <label for="message">Message:</label> <br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <!--Submit Button-->
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <p>&copy; 2022 Sophie Crabtree</p>
+    </footer>
+</body>
+</html>
