@@ -1,0 +1,21 @@
+.menu {   
+    margin: 1rem; 
+    padding: 1rem;
+}
+
+.submenu {
+    margin-top: 1rem;
+}
+
+.submenu-item:hover {  
+    display: block;  
+    background-color: #899499;
+}
+
+.submenu-item {
+    display: block;
+    padding: 0.5rem;
+    background-color: #E5E4E2;
+    width: 5rem;
+    text-align: center;
+}
