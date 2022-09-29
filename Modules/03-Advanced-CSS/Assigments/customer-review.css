@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    font-family: system-ui;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #AA98A9;
+    border-radius: 1rem;
+    background-color: #E6E6FA;
+    padding: 3rem;
+    width: 50vw;
+}
+
+.customer__info {
+    display: flex;
+    flex-direction: row;
+}
+
+.customer__image {
+    border-radius: 9999px;
+    height: 10vh;
+}
+
+.customer__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.customer__name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.customer__review {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-style: italic;
+}
