@@ -1,0 +1,222 @@
+* {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.main__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #DAF7A6;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.microchip__logo {
+    height: 3rem;
+    width: 3rem;
+    color: #5DADE2;
+}
+
+.navigation__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation__menu > li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #17202A; 
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 0.6rem;
+}
+
+.navigation__menu > li, a:hover {
+    color: #5DADE2;
+}
+
+.login__button {
+    padding: 0.5rem 1.2rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 1rem;
+    background-color: #5DADE2;
+    color: #FDFEFE;
+    margin-right: 1rem;
+}
+
+.login__button:hover {
+    background-color: #FDFEFE;
+    color: #5DADE2;
+}
+
+.header {
+    background-color: #FEF9E7;
+    padding: 3rem;
+    height: 35vh;
+}
+
+.header__title {
+    font-size: 3.7rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.header__text {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border: 2px solid #DAF7A6;
+    border-radius: 0.5rem;
+}
+
+.contact__card {
+    display: flex;
+    flex-direction: column;
+    background-color: #DAF7A6;
+    flex: 1 1 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
+}
+
+.contact__info {
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact__info > h4 {
+    margin-bottom: 1.5rem;
+}
+
+.contact__phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.phone__icon {
+    height: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+.contact__email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.email__icon {
+    height: 1.1rem;
+    margin-right: 1rem;
+}
+
+.contact__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.fa {
+    font-size: 50px;
+    width: 30px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+    padding: 1rem 2rem;
+}
+
+form {
+    position: relative;
+}
+
+form > h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact__name {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.user__contact {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form__subject{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form__message {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-bottom: 2.8rem;
+}
+
+.contact__button {
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.contact__button > button {
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #DAF7A6;
+    font-size: 1rem;
+}
+
+.contact__button > button:hover {
+    background-color: #17202A;
+    color: #FDFEFE;
+}
