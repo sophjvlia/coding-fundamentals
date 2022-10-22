@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5rem;
+        }
+
+        .quote__container {
+            border-top: 1px solid #D3D3D3;
+            border-left: 1px solid #D3D3D3;
+            border-right: 1px solid #D3D3D3;
+            border-top-left-radius: 0.2rem;
+            border-top-right-radius: 0.2rem;
+            padding: 1.5rem 0.5rem;
+            width: 40rem;
+            height: auto;
+        }
+
+        .quote {
+            color: #000000;
+            font-size: large;
+            text-align: left;
+            padding: 1rem 2rem;
+        }
+
+        .author {
+            color: #808080;
+            font-size: medium;
+            text-align: left;
+            padding: 0.5rem 2rem;
+        }
+
+        .button__container {
+            border: 1px solid #D3D3D3;
+            border-bottom-left-radius: 0.2rem;
+            border-bottom-right-radius: 0.2rem;
+            padding: 0.5rem;
+            background-color: #F5F5F5;
+            width: 40rem;
+            height: auto;
+        }
+
+        .button {
+            color: #FFFFFF;
+            background-color: #1E90FF;
+            border: 1px solid #1E90FF;
+            border-radius: 0.2rem;
+            margin: 0.2rem 0.5rem;
+            padding: 0.5rem;
+        }
+
+        .button:hover {
+            box-shadow: 0 0 5px #87CEEB;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quote__container">
+            <p class="quote" id="quote-text"></p>
+            <p class="author" id="quote-author"></p>
+        </div>
+
+        <div class="button__container">
+            <button class="button" id="new-quote" type="button">New Quote</button>
+        </div>
+    </div>
+
+    <script src="./quote-generator.js"></script>
+</body>
+</html>
