@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./content.css">
+</head>
+<body>
+    <!--Sidebar-->
+    <aside id="sidebar">
+        <div class="banner">
+            <span class="mdi mdi-spotify mdi-48px"></span>
+            <h3>Spotify</h3>
+        </div>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <span class="mdi mdi-home mdi-24px"></span>
+                <a href="#">Home</a>
+            </div>
+
+            <div class="menu-item">
+                <span class="mdi mdi-magnify mdi-24px"></span>
+                <a href="#">Search</a>
+            </div>
+
+            <div class="menu-item">
+                <span class="mdi mdi-playlist-music mdi-24px"></span>
+                <a href="#">Your Library</a>
+            </div>
+
+            <div class="menu-item create-playlist">
+                <span class="mdi mdi-plus-box mdi-24px"></span>
+                <a href="#">Create Playlist</a>
+            </div>
+
+            <div class="menu-item">
+                <span class="mdi mdi-heart-box mdi-24px"></span>
+                <a href="#">Liked Songs</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="#">Cookies</a>
+            <a href="#">Privacy</a>
+        </div>
+    </aside>
+
+    <!--Navbar-->
+    <nav id="nav">
+        <div class="left">
+            <span class="mdi mdi-chevron-left mdi-36px"></span>
+            <span class="mdi mdi-chevron-right mdi-36px"></span>
+        </div>
+
+        <div class="right">
+            <button class="signup-btn">Sign up</button>
+            <button class="login-btn">Log in</button>
+        </div>
+    </nav>
+
+    <!--Content-->
+    <main id="content">
+        <!--Spotify Playlist Section-->
+        <section>
+            <div class="title-wrapper">
+                <h1 class="main-title">Spotify Playlists</h1>
+
+                <a href="#">SEE ALL</a>
+            </div>
+
+            <div class="card-wrapper">
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjNuiG1AAv7T0x6ti-Z6GcnNiqbYqlcTZ4iRF8pyW5g&s"
+                    alt="Today's Top Hits">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Today's Top Hits</div>
+
+                    <div class="subtitle">Taylor Swift is on top of the Hottest 50.</div>
+                </a>
+                
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFQx2V-H0-5j8NXxCJwUZnNNs-Im0aPvuaGr3d5lzlAQ&s"
+                    alt="Rap Caviar">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">RapCaviar</div>
+
+                    <div class="subtitle">New music from Kodak Black, Polo G and Juice WRLD.</div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLzH4_HxNxL8qZo6m7AK2QO8JUFPRH6aE1lKDHtBVHJw&s"
+                    alt="All Out 2010s">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">All Out 2010s</div>
+
+                    <div class="subtitle">The biggest songs of the 2010s.</div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsbMgpU0pAjfkJ-T0WoA1Ubsg39_B5kurPcLOXjhXd&s"
+                    alt="Classic Rock">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Classic Rock</div>
+
+                    <div class="subtitle">Rock legends & epic songs that continue to inspire generations.</div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97I3PG4I49xlFFQhJtZ09pjEz31WKOYZxM2dJuX63hA&s"
+                    alt="Spotify & Chill">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Spotify & Chill</div>
+
+                    <div class="subtitle">Kick back to the best new and recent chill hits.</div>
+                </a>
+            </div>
+        </section>
+
+        <!--Focus Section-->
+        <section>
+            <div class="title-wrapper">
+                <h1 class="main-title">Focus</h1>
+
+                <a href="#">SEE ALL</a>
+            </div>
+
+            <div class="card-wrapper">
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdB5dYZ_EKgz7xmo5yRIKrLUqBq5rO01LsUR6JOZbbMw&s"
+                    alt="Peaceful Piano">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Peaceful Piano</div>
+
+                    <div class="subtitle">Relax and indulge with beautiful piano tunes.</div>
+                </a>
+                
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWQbe2ST9ATIZd_4rt7NYkyg9wFrQs9rzj8ECiF0JzLA&s"
+                    alt="Deep Focus">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Deep Focus</div>
+
+                    <div class="subtitle">Keep calm with ambient and post-rock music.</div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="data:image/jpeg;base64,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"
+                    alt="Instrumental Study">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Instrumental Study</div>
+
+                    <div class="subtitle">Focus with soft study music in the background.</div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJEOuLaCIDnNIoEhYYTSpyEqwAM1IEy38hvhKKFf1Yhw&s"
+                    alt="chill lofi study beats">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">chill lofi study beats</div>
+
+                    <div class="subtitle">The perfect study beats, twenty-four seven.</div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <img src="data:image/jpeg;base64,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"
+                    alt="Coding Mode">
+
+                    <span class="mdi mdi-play mdi-36px"></span>
+
+                    <div class="title">Coding Mode</div>
+
+                    <div class="subtitle">Dedicated to the programmers out there.</div>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
