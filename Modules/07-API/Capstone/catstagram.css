@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+.header__container {
+    margin: 0rem 10rem;
+    padding: 1rem;
+    text-align: center;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: #FFC0CB;
+}
+
+.feed__title {
+    margin: 1.5rem 10rem;
+    font-size: 1.3rem;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+    margin: 2.5rem 10rem;
+}
+
+.cat__card {
+    border-radius: 0.5rem;
+    width: 320px;
+    height: fit-content;
+    background-color: pink;
+}
+
+.cat__image {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem; 
+}
+
+.cat__info {
+    margin: 2rem 1.5rem;
+}
+
+.profile__link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: #17202A;
+}
+
+.profile__link > a {
+    color: #FFFFFF;
+}
+
+.profile__link:hover {
+    background-color: #273746;
+}
