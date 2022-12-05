@@ -1,3 +1,5 @@
+// I managed to display 5 pictures of the same cat only.
+
 const picture = document.querySelector('.picture__container');
 
 const ENDPOINT = 'https://api.thecatapi.com/v1/breeds';
