@@ -1,5 +1,5 @@
 // This is my best attempt on the calendar app assignment.
-// There is a slight bug after completing each feature in the app.
+// There is a slight bug when choosing number 5 to quit the app.
 
 
 const prompt = require('prompt-sync')({sigint:true});
@@ -10,16 +10,6 @@ class Event {
     constructor(date, event) {
         this.date = date;
         this.event = event;
-    }
-
-    viewEvent() {
-        for (var i = 0; i < eventList.length; i++) {
-            if (eventList === []) {
-                console.log('You have 0 events!');
-            } else {
-                console.log(`${eventList[i][0]} - ${eventList[i][1]}`);
-            }
-        };
     }
 
     addEvent() {
@@ -43,13 +33,14 @@ function displayCalendarApp() {
 
   switch(userInput) {
       case '1':
-        for (var i = 0; i < eventList.length; i++) {
+          for (var i = 0; i < eventList.length; i++) {
           if (eventList === []) {
               console.log('You have 0 events!');
           } else {
               console.log(`${i}. ${eventList[i][0]} - ${eventList[i][1]}`);
           }
-        };
+          };
+          displayCalendarApp();
       case '2':
           let addEvent = prompt('Enter your event: ');
           let addDate = prompt('Enter your date: ');
