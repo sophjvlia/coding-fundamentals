@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+        }
+
+        .form__container {
+            margin: 2rem;
+        }
+
+        .get__button {
+            padding: 0rem 0.5rem;
+        }
+
+        .card__container {
+            margin: 0rem 2.5rem;
+            border: 1px solid #000000;
+            border-radius: 0.5rem;
+            background-color: #F8F8FF;
+            width: 45rem;
+            height: auto;
+            padding: 2rem 2.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .user__image {
+            border-radius: 9999px;
+            margin-right: 2.5rem;
+            width: 200px;
+        }
+
+        .user__info {
+            margin: 1.5rem 0rem;
+        }
+    </style>
+</head>
+<body>
+    <form class="form__container" id="get-form">
+        <label for="">Enter Username:</label>
+        <input id="input-value" type="text"> 
+
+        <button class="get__button" id="get__button" type="submit">Get User</button>
+    </form>
+
+    <div class="card__container">
+        <div>
+            <img class="user__image" id="user-image" src="">
+        </div>
+
+        <div>
+            <h1 class="user__info" id="user-name"></h1>
+
+            <p class="user__info" id="user-bio"></p>
+
+            <p class="user__info" id="user-join"></p>
+        </div>
+    </div>
+
+    <script src="./github-user.js"></script>
+</body>
+</html>
