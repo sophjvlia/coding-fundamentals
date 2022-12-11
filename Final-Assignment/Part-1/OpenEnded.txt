@@ -1,0 +1,39 @@
+1. Why do we need a loop? How do you write a basic for loop?
+
+    We need a loop to iterate through a data multiple times. We write a basic for loop in JavaScript
+    using this syntax:
+
+    for (expression 1, espression 2, expression 3) {
+        // code block to be executed
+    } 
+
+    Expression 1 is performed only once before the code block is executed. Eg. let i = 0
+
+    Expression 2 defines the condition for executing the code block. Eg. i < 5
+
+    Expression 3 is carried out everytime after the code block is executed. Eg. i++
+
+2. Difference between console.log() and return?
+
+    The difference between console.log() and return is console.log() prints out the value on the terminal
+    or console while return only gives back the value from a function. 
+
+3. What are truthy values? What are falsy values?
+
+    Truthy values are values that are equal to true in a boolean context while falsy values are values
+    that are equal to false in a boolean context. Falsy values include false, '', "", 0, -0, 0n, NaN, null 
+    and undefined while truthy values are any values that are not included as falsy values.
+
+4. How does the Internet work?
+
+    The Internet is essentially a series of fibre optic cables connected to special computers called servers.
+    It enables users to access the Internet through their Internet Service Provider (ISP) to browse
+    websites using their browser. 
+
+5. How does a website work? What files are involved?
+
+    A website is a collection of web pages. A web page is made from three files which are HTML, CSS and JavaScript.
+    To access a website, the user has to type the name of the website in their search engine. The user's browser
+    will then find the location of the website's server on the DNS server. It will then send a HTTP request message
+    for a copy of the website to the website's server. The website's server will send data packets of the website
+    which the browser will reassemble to display the website to the user.
