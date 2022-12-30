@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Hangman Game</title>
+</head>
+<div class="container">
+  <h1 class="text-center font-bold text-3xl mt-4">Hangman</h1>
+  <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+  <div class="text-center">
+    <img class="flex flex-wrap justify-center ml-96 pl-44 mb-8" id='hangmanPic' src="./images/0.jpg" alt="">
+    <p class="mb-2">Guess the Animal:</p>
+    <p class="mb-2" id="wordSpotlight">The word to be guessed goes here</p>
+    <div class="ml-14 mb-4" id="keyboard"></div>
+    <button class="bg-green-500 pl-4 pt-2 pr-4 pb-2 rounded-md mb-2 font-medium" onClick="reset()">Reset</button>
+  </div> 
+</div>
+
+<script src='./hangman.js'></script>
+</body>
+</html>
