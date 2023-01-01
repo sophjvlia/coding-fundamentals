@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="scientific.calc.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input id="screen" type="text" placeholder="0">
+        </div>
+
+        <div class="buttons">
+            <div class="row">
+                <button id="back" onclick="backSpace()">BACK</button>
+                <button onclick="fact()">x!</button>
+                <button class="button">(</button>
+                <button class="button">)</button>
+                <button class="button">%</button>
+                <button id="clear" onclick="screen.value = ''">CLEAR</button>
+            </div>
+
+            <div class="row">
+                <button onclick="sin()">sin</button>
+                <button onclick="pi()">𝝅</button>
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">÷</button>
+            </div>
+
+            <div class="row">
+                <button onclick="cos()">cos</button>
+                <button onclick="log()">log</button>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">×</button>
+            </div>
+
+            <div class="row">
+                <button onclick="tan()">tan</button>
+                <button onclick="sqrt()">√</button>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">-</button>
+            </div>
+
+            <div class="row">
+                <button onclick="e()"">e</button>
+                <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em; font-size: 12px">y</span></button>
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button onclick="screen.value = eval(screen.value)">=</button>
+                <button class="button">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scientific-calc.js"></script>
+</body>
+</html>
